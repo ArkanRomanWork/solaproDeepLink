@@ -50,22 +50,6 @@
             return "unknown";
         }
 
-        async function fun() {
-            var result = "Ответ не определен";
-            await fetch('solapro://deals/191').then(function(response){
-                return response.text();
-            }).then(function(res){
-                result = res;
-            }).catch(function(err){
-                result =  "Соединение с интернетом разорвано!";
-            });
-            return result;
-        }
-
-        fun().then(function(answer){
-            alert(answer);
-        });
-
         // try {
         //     setTimeout(() => {
         //         window.location.href = 'solapro://deals/191';

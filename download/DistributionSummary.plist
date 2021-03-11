@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>solapro.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>68C223D912674E59F66CE9F24B015EA5820BC92A</string>
+				<key>dateExpires</key>
+				<string>07.01.2022</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>C2LP6YW52B.com.solaprofessionalv2</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>com.apple.developer.associated-domains</key>
+				<array>
+					<string>solapro.co</string>
+					<string>applinks:solapro-alternate.app.link</string>
+					<string>applinks:solapro.app.link</string>
+					<string>applinks:solapro.test-app.link</string>
+					<string>applinks:solapro-alternate.test-app.link</string>
+				</array>
+				<key>com.apple.developer.team-identifier</key>
+				<string>C2LP6YW52B</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>Sola Pro.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>d9f0a209-6bc5-4e7e-a362-ff4c8909a8b5</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.solaprofessionalv2</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>C2LP6YW52B</string>
+				<key>name</key>
+				<string>Sola Franchise Corporation</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
